@@ -1,7 +1,6 @@
 /** @type {import('jest').Config} */
 const config = {
-  coverageDirectory: 'coverage',
-  coverageProvider: 'v8'
+  collectCoverage: false
 }
 
 module.exports = config
